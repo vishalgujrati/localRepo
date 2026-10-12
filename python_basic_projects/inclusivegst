@@ -1,0 +1,4 @@
+amount = int(input("enter your amount: "))
+inclusivegst = amount/(1+18/100)
+print("inclusive amount is",inclusivegst)
+input("Press Enter to exit...") 
